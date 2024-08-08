@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
         type: 'website',
         images: {
           type: 'image/jpg',
-          url: `${process.env.NEXT_PUBLIC_URL}/dragon flower.jpg`
+          url: `${process.env.NEXT_PUBLIC_URL}/images/flower.jpg`
         },
         url: `${process.env.NEXT_PUBLIC_URL}`,
         locale: 'id-ID'
