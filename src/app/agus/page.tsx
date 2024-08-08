@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
           'Hanya di Kpokin, belanjaan kamu bisa ditukar dengan hadiah istimewa dan keuntungan menarik. Dapatkan ekstra benefit dengan kumpulkan poin belanja dan ajak teman/kerbat bergabung di Kpokin.',
         type: 'website',
         images: {
-          type: 'image/png',
+          type: 'image/jpg',
           url: `${process.env.NEXT_PUBLIC_URL}/dragon flower.jpg`
         },
         url: `${process.env.NEXT_PUBLIC_URL}`,
