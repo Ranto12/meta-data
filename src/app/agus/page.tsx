@@ -19,9 +19,9 @@ export async function generateMetadata(): Promise<Metadata> {
         type: 'website',
         images: {
           type: 'image/jpg',
-          url: `${process.env.NEXT_PUBLIC_URL}/images/flower.jpg`
+          url: `https://meta-data-8xd0knw75-ranto12s-projects.vercel.app/images/flower.jpg`
         },
-        url: `${process.env.NEXT_PUBLIC_URL}`,
+        url: `https://meta-data-8xd0knw75-ranto12s-projects.vercel.app/`,
         locale: 'id-ID'
       },
   };
